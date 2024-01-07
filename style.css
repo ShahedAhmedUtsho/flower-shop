@@ -25,7 +25,24 @@ button{
     border-radius: 10px;
     padding: 20px 43px;
     width: 180px;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
 }
+
+button:hover{
+    background-color: #ff2273;
+    filter: contrast(110%);
+    transform: scale(1.05);
+    
+
+}
+button:active{
+    
+    transform: scale(0.95);
+    
+
+}
+
 header{
     background-color: #e5547323;
     width: 100vw;
@@ -64,11 +81,13 @@ header{
     display: flex;
     align-items: end;
     justify-content: center;
+    
 }
 .hero-img img{
     width: 95%;
    /* border: 2px solid #fff;
     */
+    filter: brightness(120%);
 }
 .hero-info h2{
     font-size: 80px;
@@ -132,6 +151,16 @@ h3 {
     box-sizing: border-box;
     padding: 100px 10px 0;
     height: 500px;
+    -webkit-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+    opacity: 0.95;
+    filter: contrast(120%);
+    opacity: 1;
+    
+}
+.flower-img:hover{
+   background-color: #c675c175;
+
 }
 .flower-img-1{
     background: rgba(167, 33, 98, 0.15);
