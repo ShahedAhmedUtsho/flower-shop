@@ -230,6 +230,87 @@ background: rgba(39, 39, 39, 0.05);
 
 
 
+/* 😈😈😈😈hot deal😈😈😈 */
+
+
+.hot-deal-section{
+   width: 100vw;
+   height: 600px;
+   /* border: 2px solid pink; */
+   background: rgba(229, 84, 115, 0.05);
+  
+
+
+}
+
+.hot-deal-flex{
+    max-width: 1440px;
+    height: 600px;
+    margin: auto;
+    /* border: 2px solid black; */
+    display: flex;
+    
+}
+.hot-info{
+    width: 50%;
+    /* border: 2px solid rgb(206, 31, 31); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+flex-direction: column;
+padding-top: 100px;
+
+
+}
+.hot-info *{
+    margin-bottom: 25px;
+}
+.hot-info p{
+    text-align: center;
+}
+.hot-img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.hot-img img{
+    width: 55%;
+    
+}
+
+
+
+
+
+/* 😈😈😈😈hot deal😈😈😈 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width:1440px){
     .hero-info {
@@ -265,7 +346,30 @@ background: rgba(39, 39, 39, 0.05);
 
 
 
+   /* 😈😈😈😈hot deal😈😈😈 */
 
+
+   .hot-deal-section{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 500px;
+   
+   }
+   
+   .hot-deal-flex{
+       height: 500px;
+      
+       
+   }
+
+ 
+   
+   
+   
+   
+   
+   /* 😈😈😈😈hot deal😈😈😈 */
 
 
 
@@ -373,6 +477,41 @@ margin-top: -60px;
 
 
 
+/* 😈😈😈😈hot deal😈😈😈 */
+
+
+.hot-deal-section{
+   
+    height: 400px;
+ 
+ }
+ 
+ .hot-deal-flex{
+     height: 400px;
+    
+     
+ }
+ .hot-info *{
+    margin-bottom: 15px;
+}
+
+
+.hot-img{
+    width: 50%;
+   
+
+}
+.hot-img img{
+    width: 45%;
+    
+}
+
+ 
+ 
+ 
+ 
+ 
+ /* 😈😈😈😈hot deal😈😈😈 */
 
 
 
@@ -420,6 +559,123 @@ margin-top: -60px;
     .Featured-section {
         padding: 20px;
    }
+
+
+
+
+
+/* 😈😈😈😈hot deal😈😈😈 */
+
+
+
+/* .hot-deal-section{
+   
+    height: 1000px;
+ 
+ }
+ 
+ .hot-deal-flex{
+     height: 1000px;
+    
+    flex-direction: column;
+    
+     
+ }
+
+ .hot-info *{
+    
+    margin-bottom: 20px;
+}
+.hot-info{
+    width: 100%;
+   
+
+}
+
+.hot-img{
+    width: 100%;
+   
+
+}
+.hot-img img{
+    width: 45%;
+    
+} */
+
+ 
+ 
+ 
+
+
+
+
+
+
+
+.hot-deal-section{
+   
+    height: 500px;
+ 
+ }
+ 
+ .hot-deal-flex{
+     height: 500px;
+    
+   display: grid;
+    
+     
+ }
+
+ .hot-info *{
+    
+    margin-bottom: 20px;
+}
+.hot-info{
+    width: 100%;
+   align-items: center;
+   justify-content: start;
+   margin: -20;
+   padding: 30px 30px 0 30px;
+
+}
+.hot-info h3{
+    align-items: center;
+    
+}
+
+.hot-img{
+    width: 100%;
+    grid-row: 1/2;
+    align-items: end;
+   
+
+}
+.hot-img img{
+    width: 50%;
+    padding: 30px;
+    
+    
+}
+ 
+ 
+ /* 😈😈😈😈hot deal😈😈😈 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 @media screen and (max-width:750px){
     .hero-info{
@@ -491,12 +747,7 @@ padding: 20px;
 
 }
 
-.small-flex-item{
-   
- 
 
-    
-}
 .small-flex-item img{
     width: 70px;
 }
@@ -634,10 +885,11 @@ padding: 20px;
 
 
 
-h3 {
+h3 :not(.hot-info > h3) {
     color: #272727;
     font-size: 30px;
     font-weight: 800;
+
 }
 .Featured-section p{
     color: rgba(39, 39, 39, 0.60);
@@ -651,7 +903,10 @@ h3 {
 
 
 
-
+.hot-info h3{
+    align-items: center;
+    
+}
 
 
 
