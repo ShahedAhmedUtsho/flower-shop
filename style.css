@@ -107,7 +107,7 @@ header{
     width: 100vw;
     margin: auto;
     text-align: center;
-    margin-bottom: 200px;
+    margin-bottom:0px;
 }
 h3 {
     color: #272727;
@@ -173,7 +173,7 @@ h3 {
     background: rgba(71, 125, 17, 0.15);
    ;
 }
-.flowers p{
+.flowers p,.small-flex-container p{
     color: #272727;
     text-align: center;
     font-size: 24px;
@@ -183,6 +183,54 @@ h3 {
    /* 145.833% */
     text-decoration-line: underline;
 }
+
+
+
+
+/* 😈😈😈😈😈😈😈😈😈Small section😈😈😈😈😈😈😈😈😈😈 */
+
+.small-section{
+    max-width: 1440px;
+    min-height: 400px;
+    border-radius: 8px;
+/* background: rgba(39, 39, 39, 0.05); */
+margin: auto;
+margin-top: 200px;
+padding: 20px;
+}
+.small-flex-container{
+    min-height: 400px;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    /* border: 2px solid green; */
+    border-radius: 8px;
+background: rgba(39, 39, 39, 0.05);
+
+}
+
+.small-flex-item{
+   
+    align-self: center;
+    /* border: 2px solid rgb(232, 51, 51); */
+    border-radius: 8px;
+
+    
+}
+.small-flex-item img{
+    width: 88px;
+}
+
+
+/* 😈😈😈😈😈😈😈😈😈Small section😈😈😈😈😈😈😈😈😈😈 */
+
+
+
+
+
+
 @media screen and (max-width:1440px){
     .hero-info {
         padding-left: 60px;
@@ -214,6 +262,30 @@ h3 {
        /* 145.833% */
    }
    /* 😈😈😈😈😈😈😈😈😈😈😈😈😈😈😈😈😈😈😈😈😈😈😈😈😈😈😈😈😈😈😈😈😈😈😈😈😈😈😈😈😈😈 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 @media screen and (max-width:1240px){
     .hero-info {
@@ -270,6 +342,49 @@ h3 {
        /* border: 2px solid #fff;
         */
    }
+
+
+/* 😈😈😈😈😈😈😈😈😈Small section😈😈😈😈😈😈😈😈😈😈 */
+
+/* 😈😈😈😈😈😈😈😈😈Small section😈😈😈😈😈😈😈😈😈😈 */
+.small-section{
+
+margin-top: -60px;
+
+}
+
+
+.small-flex-container{
+    margin: 0 40px;
+    
+
+}
+
+
+.small-flex-item img{
+    width: 70px;
+}
+
+
+
+
+/* 😈😈😈😈😈😈😈😈😈Small section😈😈😈😈😈😈😈😈😈😈 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 @media screen and (max-width:850px){
     button{
@@ -357,6 +472,47 @@ h3 {
         line-height: 18px;
         margin: 10px auto;
    }
+
+
+/* 😈😈😈😈😈😈😈😈😈Small section😈😈😈😈😈😈😈😈😈😈 */
+
+/* 😈😈😈😈😈😈😈😈😈Small section😈😈😈😈😈😈😈😈😈😈 */
+
+.small-section{
+min-height: 600px;
+
+}
+.small-flex-container{
+    margin: 0 20px;
+    flex-direction: column;
+    min-height: 600px;
+padding: 20px;
+    
+
+}
+
+.small-flex-item{
+   
+ 
+
+    
+}
+.small-flex-item img{
+    width: 70px;
+}
+
+
+
+
+/* 😈😈😈😈😈😈😈😈😈Small section😈😈😈😈😈😈😈😈😈😈 */
+
+
+
+
+
+
+
+
 }
 @media screen and (max-width:650px){
 .hero-info{
